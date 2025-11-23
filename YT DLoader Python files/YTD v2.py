@@ -202,7 +202,7 @@ class YTDLoader(ctk.CTk):
         title.grid(row=0, column=0, sticky="w", padx=(pad, 8), pady=12)
 
         def open_report_link():
-            webbrowser.open("https://vikhyatvarun.github.io/YT-DLoader/report.html")  
+            webbrowser.open("https://vikhyatvarun.github.io/YT-DLoader/")  
         report_link = ctk.CTkLabel(header, text="Report problem here!", 
                            text_color="#4A90E2", 
                            font=ctk.CTkFont(size=12, underline=True),  
@@ -922,4 +922,5 @@ class YTDLoader(ctk.CTk):
 
 if __name__ == "__main__":
     app = YTDLoader()
+
     app.mainloop()
