@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 function downloadExe() {
-  const url = 'setup exe/YT-DLoader-setup.exe';           // file in same folder
-  const fileName = 'setup exe/YT-DLoader-setup.exe';
+  const url = 'YT-DLoader-setup.exe';           // file in same folder
+  const fileName = 'YT-DLoader-setup.exe';
 
   const a = document.createElement('a');
   a.href = url;
@@ -31,5 +31,6 @@ function downloadExe() {
   document.body.removeChild(a);
 
 }
+
 
 
