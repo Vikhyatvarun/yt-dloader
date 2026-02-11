@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 function downloadExe() {
-  const url = 'https://github.com/Vikhyatvarun/YT-DLoader/raw/refs/heads/main/setup/YT-DLoader-setup.exe?download=';
+  const url = 'https://github.com/Vikhyatvarun/ytdloader.exe/releases/download/exe/YT-DLoader-setup.exe';
 
   const a = document.createElement('a');
   a.href = url;
@@ -29,6 +29,7 @@ function downloadExe() {
   a.click();
   a.remove();
 }
+
 
 
 
